@@ -1,0 +1,57 @@
+<!DOCTYPE html><!--
+  This example requires Tailwind CSS v2.0+ 
+  
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/typography'),
+      require('@tailwindcss/aspect-ratio'),
+    ],
+  }
+  ```
+--><html><head><style>*,:before,:after{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}:before,:after{--tw-content:""}html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";font-feature-settings:normal}body{margin:0;line-height:inherit}h2,h3{font-size:inherit;font-weight:inherit}h2,h3,p{margin:0}img{display:block;vertical-align:middle}img{max-width:100%;height:auto}*,:before,:after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / .5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.prose{color:var(--tw-prose-body);max-width:65ch}.prose :where(p):not(:where([class~="not-prose"] *)){margin-top:1.25em;margin-bottom:1.25em}.prose{--tw-prose-body:#374151;--tw-prose-headings:#111827;--tw-prose-lead:#4b5563;--tw-prose-links:#111827;--tw-prose-bold:#111827;--tw-prose-counters:#6b7280;--tw-prose-bullets:#d1d5db;--tw-prose-hr:#e5e7eb;--tw-prose-quotes:#111827;--tw-prose-quote-borders:#e5e7eb;--tw-prose-captions:#6b7280;--tw-prose-code:#111827;--tw-prose-pre-code:#e5e7eb;--tw-prose-pre-bg:#1f2937;--tw-prose-th-borders:#d1d5db;--tw-prose-td-borders:#e5e7eb;--tw-prose-invert-body:#d1d5db;--tw-prose-invert-headings:#fff;--tw-prose-invert-lead:#9ca3af;--tw-prose-invert-links:#fff;--tw-prose-invert-bold:#fff;--tw-prose-invert-counters:#9ca3af;--tw-prose-invert-bullets:#4b5563;--tw-prose-invert-hr:#374151;--tw-prose-invert-quotes:#f3f4f6;--tw-prose-invert-quote-borders:#374151;--tw-prose-invert-captions:#9ca3af;--tw-prose-invert-code:#fff;--tw-prose-invert-pre-code:#d1d5db;--tw-prose-invert-pre-bg:rgb(0 0 0 / 50%);--tw-prose-invert-th-borders:#4b5563;--tw-prose-invert-td-borders:#374151;font-size:1rem;line-height:1.75}.prose :where(.prose > :first-child):not(:where([class~="not-prose"] *)){margin-top:0}.prose :where(.prose > :last-child):not(:where([class~="not-prose"] *)){margin-bottom:0}.prose-indigo{--tw-prose-links:#4f46e5;--tw-prose-invert-links:#6366f1}.absolute{position:absolute}.relative{position:relative}.bottom-0{bottom:0}.left-3\/4{left:75%}.top-0{top:0}.mx-auto{margin-left:auto;margin-right:auto}.mt-2{margin-top:.5rem}.mt-5{margin-top:1.25rem}.mt-8{margin-top:2rem}.hidden{display:none}.w-screen{width:100vw}.max-w-7xl{max-width:80rem}.max-w-prose{max-width:65ch}.overflow-hidden{overflow:hidden}.rounded-lg{border-radius:.5rem}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251 / var(--tw-bg-opacity))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity))}.object-cover{-o-object-fit:cover;object-fit:cover}.object-center{-o-object-position:center;object-position:center}.px-4{padding-left:1rem;padding-right:1rem}.py-16{padding-top:4rem;padding-bottom:4rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.font-extrabold{font-weight:800}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.leading-8{line-height:2rem}.tracking-tight{letter-spacing:-.025em}.tracking-wide{letter-spacing:.025em}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity))}.text-primary-600{--tw-text-opacity:1;color:rgb(6 76 146 / var(--tw-text-opacity))}.text-secondary-500{--tw-text-opacity:1;color:rgb(224 88 38 / var(--tw-text-opacity))}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / .1), 0 4px 6px -4px rgb(0 0 0 / .1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow)}@media (min-width: 640px){.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:text-4xl{font-size:2.25rem;line-height:2.5rem}}@media (min-width: 1024px){.lg\:col-start-1{grid-column-start:1}.lg\:col-start-2{grid-column-start:2}.lg\:row-start-1{grid-row-start:1}.lg\:mt-0{margin-top:0}.lg\:block{display:block}.lg\:grid{display:grid}.lg\:max-w-none{max-width:none}.lg\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.lg\:gap-8{gap:2rem}.lg\:px-8{padding-left:2rem;padding-right:2rem}}</style><link rel="stylesheet" href="/_astro/_...page_.0d4b791d.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/_astro/_...page_.0d4b791d.css"></noscript><script type="module" src="/_astro/page.923c81e3.js"></script>
+<script>!(function(w,p,f,c){c=w[p]=Object.assign(w[p]||{},{"lib":"/~partytown/","debug":false});c[f]=(c[f]||[]).concat(["dataLayer.push"])})(window,'partytown','forward');/* Partytown 0.7.5 - MIT builder.io */
+!function(t,e,n,i,r,o,a,d,s,c,p,l){function u(){l||(l=1,"/"==(a=(o.lib||"/~partytown/")+(o.debug?"debug/":""))[0]&&(s=e.querySelectorAll('script[type="text/partytown"]'),i!=t?i.dispatchEvent(new CustomEvent("pt1",{detail:t})):(d=setTimeout(f,1e4),e.addEventListener("pt0",w),r?h(1):n.serviceWorker?n.serviceWorker.register(a+(o.swPath||"partytown-sw.js"),{scope:a}).then((function(t){t.active?h():t.installing&&t.installing.addEventListener("statechange",(function(t){"activated"==t.target.state&&h()}))}),console.error):f())))}function h(t){c=e.createElement(t?"script":"iframe"),t||(c.setAttribute("style","display:block;width:0;height:0;border:0;visibility:hidden"),c.setAttribute("aria-hidden",!0)),c.src=a+"partytown-"+(t?"atomics.js?v=0.7.5":"sandbox-sw.html?"+Date.now()),e.body.appendChild(c)}function f(n,r){for(w(),i==t&&(o.forward||[]).map((function(e){delete t[e.split(".")[0]]})),n=0;n<s.length;n++)(r=e.createElement("script")).innerHTML=s[n].innerHTML,e.head.appendChild(r);c&&c.parentNode.removeChild(c)}function w(){clearTimeout(d)}o=t.partytown||{},i==t&&(o.forward||[]).map((function(e){p=t,e.split(".").map((function(e,n,i){p=p[i[n]]=n+1<i.length?"push"==i[n+1]?[]:p[i[n]]||{}:function(){(t._ptf=t._ptf||[]).push(i,arguments)}}))})),"complete"==e.readyState?u():(t.addEventListener("DOMContentLoaded",u),t.addEventListener("load",u))}(window,document,navigator,top,window.crossOriginIsolated);</script></head><body><div class="bg-white overflow-hidden">
+    <div class="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+      <div class="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen"></div>
+      <div class="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
+        <div>
+          <h2 class="text-base text-secondary-500 font-semibold tracking-wide uppercase">Deep Dive</h2>
+          <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-primary-600 sm:text-4xl">What is a Backflow Device</h3>
+        </div>
+      </div>
+      <div class="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
+        <div class="relative lg:row-start-1 lg:col-start-2">
+          
+          <div class="relative text-base mx-auto max-w-prose lg:max-w-none">
+          
+              <div class="aspect-w-12 aspect-h-7 lg:aspect-none">
+                <img class="rounded-lg shadow-lg object-cover object-center" src="/_astro/sprinkler-system-watering-flowers@800w.c20e1b13.webp" alt="Sprinkler System Water Flowers">
+              </div>
+              
+          </div>
+        </div>
+        <div class="mt-8 lg:mt-0">
+          <div class="text-base max-w-prose mx-auto lg:max-w-none">
+            <p class="text-lg text-gray-500">A backflow preventer is a critical device in any plumbing system, helping protect potable water quality. Without it, a drop in pressure can result in the contaminated liquid flowing into your drinking supply - an unacceptable risk for anyone's health! Installing this product is crucial for keeping our hydration sources safe and clean.</p>
+          </div>
+          <div class="mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
+            <p>The backflow preventer keeps water from reversing its trajectory and flowing in the wrong direction. A series of check valves and additional machinery work together to ensure that water only flows into your residence, never out of it. The device is typically stationed at the point where potable liquid enters a building or property. It allows for entry but opens again when forced to do so.</p>
+            <p>A backflow preventer contains check valves that only allow water to flow in one way, rendering the potable water supply safe. The built-in check valves will close automatically if the pressure within the system decreases, thwarting any risk of reversed flow.</p>
+            <p>Dictum magnis risus phasellus vitae quam morbi. Quis lorem lorem arcu, metus, egestas netus cursus. In.</p>
+            
+            <p>Backflow preventers may include other protective components like air gaps or differential pressure valves to keep contaminated or unsafe water from entering the public consumption supply. These vital mechanisms guarantee that the water will not flow back into the safe-to-drink system, even in extreme circumstances.</p>
+
+            <p>It is advisable to have your backflow preventer tested yearly. Components such as check valves can degrade over time, resulting in an ineffective device. With an annual backflow preventer examination, you can ensure it operates optimally and identify any underlying issues that need addressing.</p>
+            <p>During a backflow preventer examination, an experienced plumber utilizes special instruments to evaluate the pressure in the plumbing system and to assess the check valves and other machines in the backflow preventer. The plumber can make essential repairs or suggest replacing the unit if any difficulties are spotted.</p>
+            <p>In closing, backflow preventers are an indispensable piece of modern plumbing systems as they assist in averting contaminated water from going into usable sources. Regular testing of these devices is critical for verifying that they work suitability to protect public well-being and security.</p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div></body></html>

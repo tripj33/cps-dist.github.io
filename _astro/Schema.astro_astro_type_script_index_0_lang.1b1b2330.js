@@ -1,0 +1,1 @@
+class n extends HTMLElement{constructor(){super();let t=document.getElementsByTagName("head")[0],e=document.createElement("script");e.setAttribute("type","application/ld+json"),e.innerHTML=this.dataset.schema,t.insertAdjacentElement("afterbegin",e)}}customElements.define("page-schema",n);

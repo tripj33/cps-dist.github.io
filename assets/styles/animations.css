@@ -1,0 +1,6 @@
+.reveal-text {
+  opacity: 0;
+  transform: translateY(100px);
+  -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+}/*# sourceMappingURL=animations.css.map */
